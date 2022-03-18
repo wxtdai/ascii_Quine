@@ -1,3 +1,4 @@
+puts " e[31mfoo e[m"
 eval(%w(
     
     pu     ts       ("my
