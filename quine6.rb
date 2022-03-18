@@ -1,0 +1,1 @@
+n=$0.gsub(/[^\d]/, "").to_i;eval(u = %q[File.write("quine#{n+ARGV[0].to_i}.rb","n=$0.gsub(/[^"+92.chr+"d]/, #{34.chr+34.chr}).to_i;eval(u = %q["+ u +"])")])
