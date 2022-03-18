@@ -1,0 +1,1 @@
+n=2;eval(u = %q[File.write("quine#{n+1}.rb","n=#{n+1};eval(u = %q["+ u +"])")])
