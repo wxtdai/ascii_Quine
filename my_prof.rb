@@ -1,4 +1,4 @@
-puts " e[31mfoo e[m"
+puts 27.chr+"[31m"
 eval(%w(
     
     pu     ts       ("my
@@ -9,3 +9,5 @@ eval(%w(
     ch   r+         "K   un
     it     om       oD ai
     ch       i") )  *"")
+
+puts 27.chr+"[m"
