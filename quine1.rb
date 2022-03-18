@@ -1,1 +1,0 @@
-n=1;eval(u = %q[puts "n=#{n+1};eval(u = %q["+ u +"])"])
